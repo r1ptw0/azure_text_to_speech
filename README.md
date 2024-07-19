@@ -49,6 +49,14 @@ Activate the new environment:
 conda activate azure_speech_env
 ```
 
+## Note - Conda Deactivate
+
+incase you need to deactivate conda use the following commands
+
+```text
+conda deactivate
+```
+
 ## Environment Variables
 
 Set the environment variables for your Azure Cognitive Services subscription
