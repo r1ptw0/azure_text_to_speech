@@ -35,40 +35,7 @@ Ensure you have Conda installed. You can download and install it from:
 
 ## Setup Instructions
 
-### 1. Create a Conda Environment
-
-Create a new Conda environment with Python 3.9:
-
-```bash
-conda create --name azure_speech_env python=3.9
-```
-
-### 2. Activate the Conda Environment
-
-Activate the newly created environment:
-
-```bash
-conda activate azure_speech_env
-```
-
-### 3. Install Required Packages
-
-Install the Azure Cognitive Services Speech SDK and other necessary packages:
-
-```bash
-conda install pip
-pip install azure-cognitiveservices-speech
-```
-
-### 4. Verify the Installation
-
-List the installed packages to ensure everything is set up correctly:
-
-```bash
-conda list
-```
-
-### Recreating the Environment from YAML
+### 1. Recreating the Environment from YAML
 
 To recreate the environment from the `environment.yaml` file:
 
