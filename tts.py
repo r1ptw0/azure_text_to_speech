@@ -35,6 +35,9 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_r
 # Set the voice name, refer to https://aka.ms/speech/voices/neural for full list.
 speech_config.speech_synthesis_voice_name = "en-US-AvaMultilingualNeural"
 
+# Set the audio output format for higher quality
+speech_config.set_speech_synthesis_output_format(speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3)
+
 # Create an audio configuration that points to an audio file.
 audio_config = speechsdk.audio.AudioOutputConfig(filename=str(speech_file_path))
 
